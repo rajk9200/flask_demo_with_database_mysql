@@ -1,0 +1,12 @@
+{% extends 'base.html'%}
+{% block content%}
+
+<div class="container">
+    <h3>{{data['text']}}</h3>
+    {% for i in data['a']%}
+    <h1 style="color:red;">{{i}}</h1>
+
+    {% endfor%}
+</div>
+{% endblock %}
+
